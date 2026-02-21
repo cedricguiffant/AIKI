@@ -1,0 +1,71 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Kana SRS - Japonais Fluide",
+  "homeTitle": "Mes Decks",
+  "importDeck": "Importer un deck",
+  "reviewNow": "Réviser maintenant",
+  "noDueCards": "Aucune carte à réviser",
+  "cardsRemaining": "{count} carte(s) restante(s)",
+  "@cardsRemaining": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "mastered": "{percent}% maîtrisé",
+  "@mastered": {
+    "placeholders": {
+      "percent": { "type": "int" }
+    }
+  },
+  "lastSession": "Dernière session : {date}",
+  "@lastSession": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  },
+  "again": "Again",
+  "hard": "Hard",
+  "good": "Good",
+  "easy": "Easy",
+  "showAnswer": "Afficher la réponse",
+  "sessionComplete": "Session terminée !",
+  "pointsEarned": "+{points} points",
+  "@pointsEarned": {
+    "placeholders": {
+      "points": { "type": "int" }
+    }
+  },
+  "profile": "Profil",
+  "totalPoints": "Points totaux",
+  "currentStreak": "Streak actuel",
+  "days": "{count} jour(s)",
+  "@days": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "badges": "Badges",
+  "settings": "Paramètres",
+  "darkMode": "Mode sombre",
+  "geminiApiKey": "Clé API Gemini",
+  "importing": "Import en cours...",
+  "importSuccess": "Deck importé avec succès !",
+  "importError": "Erreur lors de l'import",
+  "aiSorting": "Tri AI en cours...",
+  "aiSortComplete": "Tri AI terminé",
+  "iKnowThis": "Je connais déjà",
+  "newWord": "Nouveau",
+  "notificationTitle": "Kana SRS",
+  "notificationBody": "Votre streak est en danger ! Révisez maintenant.",
+  "cardsCount": "{count} carte(s)",
+  "@cardsCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "noDecksYet": "Aucun deck importé.\nAppuyez sur + pour commencer !",
+  "deleteConfirm": "Supprimer ce deck ?",
+  "cancel": "Annuler",
+  "delete": "Supprimer",
+  "confirm": "Confirmer"
+}

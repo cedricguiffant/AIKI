@@ -1,0 +1,71 @@
+{
+  "@@locale": "ja",
+  "appTitle": "Kana SRS - 日本語フルイド",
+  "homeTitle": "マイデッキ",
+  "importDeck": "デッキをインポート",
+  "reviewNow": "今すぐ復習",
+  "noDueCards": "復習するカードはありません",
+  "cardsRemaining": "残り{count}枚",
+  "@cardsRemaining": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "mastered": "{percent}%習得済み",
+  "@mastered": {
+    "placeholders": {
+      "percent": { "type": "int" }
+    }
+  },
+  "lastSession": "最終セッション：{date}",
+  "@lastSession": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  },
+  "again": "もう一度",
+  "hard": "難しい",
+  "good": "良い",
+  "easy": "簡単",
+  "showAnswer": "答えを表示",
+  "sessionComplete": "セッション完了！",
+  "pointsEarned": "+{points}ポイント",
+  "@pointsEarned": {
+    "placeholders": {
+      "points": { "type": "int" }
+    }
+  },
+  "profile": "プロフィール",
+  "totalPoints": "合計ポイント",
+  "currentStreak": "現在のストリーク",
+  "days": "{count}日",
+  "@days": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "badges": "バッジ",
+  "settings": "設定",
+  "darkMode": "ダークモード",
+  "geminiApiKey": "Gemini APIキー",
+  "importing": "インポート中...",
+  "importSuccess": "デッキのインポートに成功しました！",
+  "importError": "インポートエラー",
+  "aiSorting": "AI分類中...",
+  "aiSortComplete": "AI分類完了",
+  "iKnowThis": "もう知っている",
+  "newWord": "新しい",
+  "notificationTitle": "Kana SRS",
+  "notificationBody": "ストリークが危険です！今すぐ復習しましょう。",
+  "cardsCount": "{count}枚",
+  "@cardsCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "noDecksYet": "デッキがありません。\n+をタップして始めましょう！",
+  "deleteConfirm": "このデッキを削除しますか？",
+  "cancel": "キャンセル",
+  "delete": "削除",
+  "confirm": "確認"
+}

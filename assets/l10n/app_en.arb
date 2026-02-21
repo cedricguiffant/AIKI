@@ -1,0 +1,71 @@
+{
+  "@@locale": "en",
+  "appTitle": "Kana SRS - Fluent Japanese",
+  "homeTitle": "My Decks",
+  "importDeck": "Import a deck",
+  "reviewNow": "Review now",
+  "noDueCards": "No cards due for review",
+  "cardsRemaining": "{count} card(s) remaining",
+  "@cardsRemaining": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "mastered": "{percent}% mastered",
+  "@mastered": {
+    "placeholders": {
+      "percent": { "type": "int" }
+    }
+  },
+  "lastSession": "Last session: {date}",
+  "@lastSession": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  },
+  "again": "Again",
+  "hard": "Hard",
+  "good": "Good",
+  "easy": "Easy",
+  "showAnswer": "Show answer",
+  "sessionComplete": "Session complete!",
+  "pointsEarned": "+{points} points",
+  "@pointsEarned": {
+    "placeholders": {
+      "points": { "type": "int" }
+    }
+  },
+  "profile": "Profile",
+  "totalPoints": "Total points",
+  "currentStreak": "Current streak",
+  "days": "{count} day(s)",
+  "@days": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "badges": "Badges",
+  "settings": "Settings",
+  "darkMode": "Dark mode",
+  "geminiApiKey": "Gemini API key",
+  "importing": "Importing...",
+  "importSuccess": "Deck imported successfully!",
+  "importError": "Import error",
+  "aiSorting": "AI sorting in progress...",
+  "aiSortComplete": "AI sorting complete",
+  "iKnowThis": "I already know this",
+  "newWord": "New",
+  "notificationTitle": "Kana SRS",
+  "notificationBody": "Your streak is at risk! Review now.",
+  "cardsCount": "{count} card(s)",
+  "@cardsCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "noDecksYet": "No decks imported.\nTap + to get started!",
+  "deleteConfirm": "Delete this deck?",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "confirm": "Confirm"
+}
