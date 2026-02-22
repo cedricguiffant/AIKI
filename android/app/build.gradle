@@ -1,19 +1,20 @@
 plugins {
     id "com.android.application"
     id "kotlin-android"
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id "dev.flutter.flutter-gradle-plugin"
 }
 
 android {
-    namespace = "com.kanasrs.app"
-    compileSdk = flutter.compileSdkVersion
+    namespace = "com.kanasrs.kana_srs"
+    compileSdk = 35
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
-        // flutter_local_notifications nécessite Java 8+
+        // flutter_local_notifications nécessite desugaring pour Java 8 time API
         coreLibraryDesugaringEnabled true
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
 
     kotlinOptions {
@@ -21,7 +22,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.kanasrs.app"
+        applicationId = "com.kanasrs.kana_srs"
         minSdk = 21
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode

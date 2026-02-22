@@ -67,7 +67,7 @@ class GamificationService {
 
   /// Retourne la liste des badges avec leur statut de déblocage.
   /// Return badges with their unlock status.
-  static List<({Badge badge, bool unlocked})> getBadgeStatuses(
+  static List<({AppBadge badge, bool unlocked})> getBadgeStatuses(
     UserStats stats,
   ) {
     return AppBadges.all

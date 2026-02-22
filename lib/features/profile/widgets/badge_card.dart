@@ -6,7 +6,7 @@ import '../../../utils/constants.dart';
 /// Widget d'affichage d'un badge (débloqué ou verrouillé).
 /// Badge display widget (unlocked or locked).
 class BadgeCard extends StatelessWidget {
-  final Badge badge;
+  final AppBadge badge;
   final bool unlocked;
 
   const BadgeCard({

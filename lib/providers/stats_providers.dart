@@ -21,7 +21,7 @@ final userStatsProvider =
 
 /// Provider des statuts de badges / Badge statuses provider
 final badgeStatusesProvider =
-    Provider<List<({Badge badge, bool unlocked})>>((ref) {
+    Provider<List<({AppBadge badge, bool unlocked})>>((ref) {
   final stats = ref.watch(userStatsProvider);
   return GamificationService.getBadgeStatuses(stats);
 });

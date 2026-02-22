@@ -3,6 +3,7 @@ import 'package:kana_srs/features/gamification/gamification_service.dart';
 import 'package:kana_srs/features/srs/srs_engine.dart';
 import 'package:kana_srs/models/user_stats.dart';
 import 'package:kana_srs/models/badge.dart';
+import 'package:kana_srs/models/review_card.dart';
 
 void main() {
   group('GamificationService', () {

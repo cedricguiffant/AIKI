@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'dart:io';
-import 'dart:typed_data';
 
 import 'package:archive/archive.dart';
 import 'package:path/path.dart' as p;
@@ -45,7 +44,7 @@ class AnkiParser {
     // 2. Trouver collection.anki2 / Find the SQLite database
     final anki2File = archive.files.firstWhere(
       (f) => f.name == 'collection.anki2' || f.name.endsWith('.anki2'),
-      orElse: () => throw FormatException(
+      orElse: () => throw const FormatException(
         'Fichier collection.anki2 introuvable dans le .apkg / '
         'collection.anki2 not found in .apkg',
       ),

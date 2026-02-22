@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 /// Définition d'un badge de gamification.
 /// Gamification badge definition.
-class Badge {
+class AppBadge {
   final String id;
   final String name;
   final String description;
@@ -10,7 +10,7 @@ class Badge {
   final int requiredPoints;
   final int? requiredStreak;
 
-  const Badge({
+  const AppBadge({
     required this.id,
     required this.name,
     required this.description,
@@ -30,23 +30,23 @@ class Badge {
 
 /// Liste de tous les badges disponibles / All available badges
 class AppBadges {
-  static const List<Badge> all = [
+  static const List<AppBadge> all = [
     // Badges par points / Points-based badges
-    Badge(
+    AppBadge(
       id: 'debutant',
       name: 'Débutant',
       description: '500 points accumulés',
       icon: Icons.emoji_events_outlined,
       requiredPoints: 500,
     ),
-    Badge(
+    AppBadge(
       id: 'samourai',
       name: 'Samouraï',
       description: '2000 points accumulés',
       icon: Icons.shield_outlined,
       requiredPoints: 2000,
     ),
-    Badge(
+    AppBadge(
       id: 'sensei',
       name: 'Sensei',
       description: '5000 points accumulés',
@@ -54,21 +54,21 @@ class AppBadges {
       requiredPoints: 5000,
     ),
     // Badges par streak / Streak-based badges
-    Badge(
+    AppBadge(
       id: 'streak_7',
       name: 'Semaine parfaite',
       description: '7 jours consécutifs',
       icon: Icons.local_fire_department,
       requiredStreak: 7,
     ),
-    Badge(
+    AppBadge(
       id: 'streak_30',
       name: 'Mois de feu',
       description: '30 jours consécutifs',
       icon: Icons.whatshot,
       requiredStreak: 30,
     ),
-    Badge(
+    AppBadge(
       id: 'streak_100',
       name: 'Légende',
       description: '100 jours consécutifs',
@@ -78,7 +78,7 @@ class AppBadges {
   ];
 
   /// Retourne les badges nouvellement débloqués / Get newly unlocked badges
-  static List<Badge> getNewlyUnlocked(
+  static List<AppBadge> getNewlyUnlocked(
     int totalPoints,
     int currentStreak,
     List<String> alreadyEarned,
