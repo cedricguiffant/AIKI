@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'providers/settings_providers.dart';
-import 'features/deck_import/screens/home_screen.dart';
+import 'features/home/screens/home_screen.dart';
 
 /// Widget racine de l'application Kana SRS.
 /// Root widget for Kana SRS application.
